@@ -17,6 +17,8 @@ To get a working solution you have to provide a WebAPI fitted to your needs and 
 
 The WebAPI returns the active antenna port and the plugin highlights the corresponding button.
 
+You can find the WebAPI I'm using at https://github.com/jrghnng/AntennaSwitcherWebAPI
+
 ## Installation
 
 Please check https://groups.io/g/openwebrx/message/9485
