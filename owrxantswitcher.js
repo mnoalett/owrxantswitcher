@@ -86,6 +86,11 @@ Plugins.owrxantswitcher.init = function () {
 
   // Retrieve initial button configuration
   sendLetter("s");
-
+  
+  // Schedule automatic update every 2000 ms to refelct changes from other clients
+  setInterval(function () {
+    sendLetter('s');
+  }, 2000);
+  
   return true;
 };
